@@ -1,0 +1,16 @@
+body{
+    background-color: #444444; /* Gris oscuro */
+}
+
+.cabecera{
+    background-color: #7040DF;
+}
+
+.data{
+    background-color: white;
+}
+
+#contenedor{
+    background-color: aliceblue;
+    
+}
