@@ -1,3 +1,6 @@
+@import url('../../assets/css/fawesome-all.css');
+
+
 *{
     box-sizing: border-box; /* Hace que el padding no afecte al tamaño de la tarjeta*/
     margin: 0;
