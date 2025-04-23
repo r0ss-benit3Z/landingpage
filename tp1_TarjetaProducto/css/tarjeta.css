@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box; /* Hace que el padding no afecte al tamaño de la tarjeta*/
     margin: 0;
-    padding: 10;
+    padding: 0;
 }
 
 body{
@@ -20,18 +20,21 @@ img{
 .producto{
     width: 250px;
     height: auto;
-    background-color: steelblue;
+    background-color: rgb(139, 127, 131);
     padding: 10px; /* Separacion interna del contenedor padre*/
     border-radius: 8px;
     display: flex;
     gap: 10px; /* Espacio entre los elementos de la tarjeta*/
 }
 
+
+/* pares = even */
+/* impares = odd */
 .producto:nth-child(odd){
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(150, 68, 68);
     /* background-color: transparent; */
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; 
 }
 
 .fotoProducto{
@@ -59,7 +62,7 @@ img{
 }
 
 .valoracion{
-    background-color: goldenrod;
+    background-color: rgb(100, 26, 7);
     height: 30px;
     border-radius: 50%;
     aspect-ratio: 1/1;
