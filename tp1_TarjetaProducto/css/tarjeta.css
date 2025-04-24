@@ -5,6 +5,7 @@
     box-sizing: border-box; /* Hace que el padding no afecte al tamaño de la tarjeta*/
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 body{
