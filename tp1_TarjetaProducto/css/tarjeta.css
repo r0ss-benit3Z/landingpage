@@ -108,12 +108,17 @@ header{
     display: none;
 
  }
- .buscadorCarrito button{
-        background-color: rgb(175, 104, 104);
+  header button{
+        background-color: transparent;
         border: none;
         cursor: pointer;
         font-size: 1,25em;
         color: rgb(29, 23, 23);
 
 
+ }
+
+ header button:hover{
+    color: rgb(245, 241, 241);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
  }
