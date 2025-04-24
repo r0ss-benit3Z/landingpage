@@ -76,6 +76,44 @@ img{
 .columna{
     display: flex;
     flex-direction: column;
-    gap: 0,7em;
     gap: 0.7em;
 }
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+ .menu{
+
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+ }
+ .ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+ .buscadorCarrito{
+    display: flex;
+    gap: 0,5em;
+ }
+
+ .buscador input{
+    display: none;
+
+ }
+ .buscadorCarrito button{
+        background-color: rgb(175, 104, 104);
+        border: none;
+        cursor: pointer;
+        font-size: 1,25em;
+        color: rgb(29, 23, 23);
+
+
+ }
